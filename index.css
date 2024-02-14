@@ -1,5 +1,15 @@
+.honk-palavraunica {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+  
 .desafio1 {
-    background-color: #b91c1c;
+    background-color: orange;
     padding: 20px;
     border: 1px solid #ccc;
 }
@@ -8,10 +18,12 @@
     background-color: #7f3cc2;
     padding: 20px;
     border: 1px solid #ccc;
+    list-style-type:georgian;
 }
 
 #lista2 {
     background-color: #2cb335;
     padding: 20px;
     border: 1px solid #ccc;
+    list-style-type: square;
 }
